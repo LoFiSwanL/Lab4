@@ -1,3 +1,5 @@
+// Compiler - GCC/G++ через MSYS2 (Author: Andrii Itsko)
+
 #include <iostream>
 #include "fileforgeneration.h"
 #include "structur.h"
@@ -83,7 +85,7 @@ void test_file(int num_of_threads, const string &name_of_file, string descriptio
 
 int main(){
     generator generator;
-    generator.generate_all_files(generator::DEFAULT_OPS_COUNT);
+    // generator.generate_all_files(generator::DEFAULT_OPS_COUNT);
 
     vector<int> thread_count = {1, 2, 3};
 
