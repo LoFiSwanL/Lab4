@@ -16,7 +16,7 @@ class generator{
     std::vector<std::string> generate_comands(const Comand_set &freq, long long num_operations);
 
 public:
-    static constexpr long long DEFAULT_OPS_COUNT = 10000;
+    static constexpr long long DEFAULT_OPS_COUNT = 100000;
 
     void generate_all_files(long long num_operations = DEFAULT_OPS_COUNT);
 
